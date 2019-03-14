@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require 'bundler/setup'
+require 'waiting_for_godot'
+
+WaitingForGodot::CLI.new.call
